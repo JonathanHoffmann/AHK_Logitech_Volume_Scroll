@@ -2,7 +2,7 @@
 #InputLevel 7
 #CommentFlag //
 
-I_Icon = E:\Programming\Autohotkey scripts\Volume logitech\logo.png
+I_Icon =  %A_ScriptDir%\logo.png
 ICON [I_Icon]                        //Changes a compiled script's icon (.exe)
 if I_Icon <>
 IfExist, %I_Icon%
